@@ -26,4 +26,4 @@ services:
       - POSTGRES_HOST=ord-postgres
     image: "openreactiondatabase/ord-interface:latest"
     ports:
-      - "5000:5000"
+      - "5001:5001"
